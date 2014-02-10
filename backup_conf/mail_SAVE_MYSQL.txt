@@ -1,0 +1,5 @@
+-s"Sauvegarde BDD MySQL sur Apollon"
+-tf backup_conf\recipient_SAVE_MYSLQ.txt
+-bodyf backup_conf\mail.txt
+-serverSMTP servername.domain.lan
+-f Apollon.gindre.lan
