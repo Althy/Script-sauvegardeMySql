@@ -1,0 +1,16 @@
+Fichiers de configuration pour le mailer de BLAT
+
+
+Mail.txt 
+Doit rester vide, de toute maniere il seras vidé a la première execution.
+
+mail_SAVE_MYSQL.txt 
+Definit le format du mail:
+-s pour le sujet
+-tf pour le chemin du fichier des receveurs
+-bodyf pour integrer le contenu dans le mail
+-serverSMTP pour le nom du seveur SMTP utilisé
+-f pour le nom de l'emetteur
+
+recipient_SAVE_MYSQL.txt
+Contient la liste des receveurs du mail.
