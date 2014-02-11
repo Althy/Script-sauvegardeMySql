@@ -26,7 +26,7 @@ echo _____________________________________________________________________ >> ba
 echo sauvegarde de GLPI >> backup_conf\mail.txt
 
 E:\Bases\mysql\bin\mysql5.0.45\bin\mysqldump -u username -p passwd glpi > "F:\Sauvegarde\Sauvegarde mysql\database\glpi.sql"
-
+rem commande de sauvegarde de la base de données grace a l'appel de la fonction mysqldump
 echo sauvegarde de GLPI effectuee
 rem si la sauvegarde ne peux aboutir, le reste du mail ne sera pas affiché, le message est appres pour cette raison
 
@@ -35,7 +35,7 @@ echo _____________________________________________________________________ >> ba
 echo sauvegarde de information_schema >> backup_conf\mail.txt
 
 E:\Bases\mysql\bin\mysql5.0.45\bin\mysqldump -u username -p passwd information_schema > "F:\Sauvegarde\Sauvegarde mysql\database\information_schema.sql"
-
+rem commande de sauvegarde de la base de données grace a l'appel de la fonction mysqldump
 echo sauvegarde de GLPI effectuee
 rem si la sauvegarde ne peux aboutir, le reste du mail ne sera pas affiché, le message est appres pour cette raison
 
@@ -44,7 +44,7 @@ echo _____________________________________________________________________ >> ba
 echo sauvegarde de mysql >> backup_conf\mail.txt
 
 E:\Bases\mysql\bin\mysql5.0.45\bin\mysqldump -u username -p passwd mysql > "F:\Sauvegarde\Sauvegarde mysql\database\mysql.sql"
-
+rem commande de sauvegarde de la base de données grace a l'appel de la fonction mysqldump
 echo sauvegarde de GLPI effectuee
 rem si la sauvegarde ne peux aboutir, le reste du mail ne sera pas affiché, le message est appres pour cette raison
 
