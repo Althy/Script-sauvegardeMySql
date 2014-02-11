@@ -5,7 +5,6 @@
 *.pydevproject
 .project
 .metadata
-bin/
 tmp/
 *.tmp
 *.bak
@@ -70,12 +69,10 @@ build/
 *.tlh
 *.tmp
 *.tmp_proj
-*.log
 *.vspscc
 *.vssscc
 .builds
 *.pidb
-*.log
 *.scc
 
 # Visual C++ cache files
@@ -201,8 +198,6 @@ sdist/
 develop-eggs/
 .installed.cfg
 
-# Installer logs
-pip-log.txt
 
 # Unit test / coverage reports
 .coverage
